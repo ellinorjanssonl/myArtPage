@@ -1,0 +1,67 @@
+.navbar-brand, .logo {
+    background-color: transparent !important; /* Använd '!important' med försiktighet */
+  }
+
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  .navbar {
+    width: 100%;
+    background-color: var(--color-bg2); /* Sätter bakgrundsfärgen på hela navbaren */
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .Navcontainer {
+    margin-top: 1rem;
+    background-color: transparent; /* Behåll detta om du vill ha en transparent bakgrund runt nav-kontainern */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: none;
+  }
+
+  .nav-link {
+    margin: 0 3rem; 
+    transition: color 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+
+  .nav-link:hover {
+    color: var(--color-primary);
+    transform: scale(1.1);
+  }
+
+  .me-auto {
+    background-color: var(--color-bg); /* Sätter bakgrundsfärgen på vänstra delen av navbaren */
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* Ta bort 'background-color: var(--color-bg);' från .me-auto om du inte vill att den ska ha en särskild bakgrund */
+  }
+  
+  @media screen and (max-width: 768px) {
+  
+    .nav-link {
+      margin: 0 1rem;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .navbar {
+      justify-content: center;
+      text-align: center;
+      font-size: 1.5rem;
+    }
+
+    .navbar-brand {
+      margin: 0;
+    }
+
+
+  }

@@ -1,0 +1,87 @@
+.profile-image {
+    width: 250px; /* eller en annan storlek efter önskemål */
+    height: 250px; /* gör detta lika med bredden för att behålla bildens aspekt */
+    object-fit: cover; /* detta säkerställer att bilden täcker området utan att förlora proportionerna */
+    display: block; /* detta gör att du kan centrera bilden med margin */
+    margin: 0 auto; /* detta centrerar bilden horisontellt */
+    border: 5px solid var(--color-bg);
+    border-radius: 50%; /* detta gör bilden rund */
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    margin-top: 2rem;
+  }
+
+.container {
+   padding-top: 0.5rem;
+   justify-content: center;
+   padding-bottom: 3rem;
+  }
+ 
+.carousel-image {
+    border: 3rem solid var(--color-bg);
+  }
+
+  .text-center {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .text-center h2 {
+    color: var(--color-text);
+    font-size: 2.5rem;
+  }
+
+  .carousel {
+    margin-top: 2rem;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  .carousel-caption h5 {
+    color: var(--color-text);
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .carousel-caption p {
+    font-size: 0.75rem;
+  }
+
+  .text-info {
+    color: var(--color-text);
+    text-align: center;
+  }
+
+  .text-info h1{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: var(--color-text);
+    font-size: 6rem;
+    text-align: center;
+  }
+
+ .text-info p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .signature {
+     position: relative;
+     height: 80px;
+     width: auto;
+     margin-left: 12rem;
+     background-color: transparent;
+    }
+
+  @media screen and (max-width: 768px) {
+   
+    .text-info h1{
+      color: var(--color-text);
+      font-size: 4rem;
+      text-align: center;
+    }
+
+  }
+
+
+
