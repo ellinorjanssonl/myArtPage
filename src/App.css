@@ -9,10 +9,10 @@
   --color-senary: #f2f2f2;
   --color-septenary: #f2f2f2;
   --color-octonary: #f2f2f2;
-  font-family: 'Poppins', sans-serif;
 }
 
 * {
+  font-family: 'Poppins', sans-serif;
   background-color: var(--color-bg);
   color: var(--color-text);
   box-sizing: border-box;
