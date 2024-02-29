@@ -13,32 +13,32 @@ const cardData = [
   },
   {
     imgSrc: "bild1.jpg",
-    title: "Akrylmåling abstrakt",
+    title: "Akrylmåling Abstrakt",
     text: "Akryl, 1 x 1 meter. Toner av blått, silver, guld och vitt.",
     price: "1500" 
   },
   {
     imgSrc: "bild4.jpg",
-    title: "Konst med struktur",
+    title: "Målning med strukatur",
     text: "En olikemålning i 1.5 x 1 meter. Strukturen i målningen ger en 3D effekt.",
     price: "1700" 
   },
   {
     imgSrc: "bild3.jpg",
-    title: "Akvarell och akryl",
+    title: "Akvarell och Akryl",
     text: "Målning av kvinna med toner av guld och silver i färgkombinationen.",
     price: "1900" 
   },
   {
     imgSrc: "bild8.jpg",
-    title: "Akvarell och akryl",
-    text: "Målning av kvinna med toner av guld och silver i färgkombinationen.",
+    title: "Oljemålning Abstrakt",
+    text: "En oljemålning i naturfärg med inlag av guld.",
     price: "1500" 
   },
   {
     imgSrc: "bild10.jpg",
-    title: "Akvarell och akryl",
-    text: "Målning av kvinna med toner av guld och silver i färgkombinationen.",
+    title: "Akvarell och strukatur",
+    text: "En målning i 2 x 2 meter med blå toner.",
     price: "2100" 
   }
 ];
