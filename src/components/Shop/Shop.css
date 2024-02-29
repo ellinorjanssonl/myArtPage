@@ -34,7 +34,7 @@
 .cardText {
   font-size: 1.2rem;
   text-align: center;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .cardText {
@@ -56,7 +56,7 @@
   text-align: center;
   justify-content: center;
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .button-container {

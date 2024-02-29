@@ -10,6 +10,7 @@ import Cart from './components/Cart/Cart';
 import Footer from './components/Footer/Footer';
 import {CartProvider}from './components/Cart/CartContext';
 
+
 function App() {
   return (
     <BrowserRouter>
