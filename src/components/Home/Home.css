@@ -40,7 +40,6 @@
   .carousel-caption h5 {
     color: var(--color-text);
     font-size: 1rem;
-    font-weight: bold;
   }
 
   .carousel-caption p {
