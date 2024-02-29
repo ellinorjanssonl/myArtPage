@@ -12,9 +12,6 @@
   --color-septenary: #f2f2f2;
   --color-octonary: #f2f2f2;
 }
-body{
-  font-family:'Poppins', sans-serif;
-}
 
 * {
   background-color: var(--color-bg);
