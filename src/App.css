@@ -1,5 +1,4 @@
 
-
 #root {
   --color-primary: #f2f2f2;
   --color-text: #242323;
@@ -10,13 +9,13 @@
   --color-senary: #f2f2f2;
   --color-septenary: #f2f2f2;
   --color-octonary: #f2f2f2;
+  font-family: 'Poppins', sans-serif;
 }
 
 * {
   background-color: var(--color-bg);
   color: var(--color-text);
   box-sizing: border-box;
-  font-family:'poppins', sans-serif;
   margin: 0;
   padding: 0;
 }
