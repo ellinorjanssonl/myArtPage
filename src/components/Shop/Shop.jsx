@@ -40,7 +40,30 @@ const cardData = [
     title: "Akvarell och strukatur",
     text: "En målning i 2 x 2 meter med blå toner.",
     price: "2100" 
+  },
+
+  {
+    imgSrc: "artsmoking.jpg",
+    title: "Akvarell och krita",
+    text: "En målning på kvinna.",
+    price: "4100" 
+  },
+
+  {
+    imgSrc: "Oljemåning.jpg",
+    title: "Oljemålning i 3D",
+    text: "En målning i olja.",
+    price: "2800" 
+  },
+
+  {
+    imgSrc: "blyertsman.jpg",
+    title: "blyertsporträtt",
+    text: "En teckning i blyerts .",
+    price: "2100" 
   }
+
+
 ];
 
 const Shop = () => {
