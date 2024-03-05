@@ -57,6 +57,7 @@
       margin: 0 1rem;
       justify-content: center;
       text-align: center;
+      display: flex;
     }
 
     .navbar {
@@ -65,9 +66,19 @@
       font-size: 1.5rem;
     }
 
+    #cart-dropdown  {
+      display: inline-flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+    }
+
+
     .navbar-brand {
       margin: 0;
     }
+
+
 
 
   }
