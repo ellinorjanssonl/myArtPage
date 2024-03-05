@@ -31,6 +31,7 @@
     color: var(--color-text);
     font-size: 2.5rem;
     font-weight: 200;
+    font-family: 'montserrat', sans-serif;
   }
 
   .carousel {
@@ -48,8 +49,9 @@
   }
 
   .text-info img{
+    padding-top: 2rem;
     justify-content: center;
-    width: 600px;
+    width: 500px;
     height: 150px;
     margin: 0 auto;
   }

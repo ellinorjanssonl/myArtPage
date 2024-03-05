@@ -10,7 +10,6 @@
   .navbar {
     width: 100%;
     background-color: var(--color-bg2); /* Sätter bakgrundsfärgen på hela navbaren */
-    font-weight: 900;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,6 +25,8 @@
   }
 
   .nav-link {
+    font-weight: 400;
+    font-family: 'montserrat', sans-serif;
     margin: 0 3rem; 
     transition: color 0.3s ease-in-out;
     transition: 0.3s ease-in-out;

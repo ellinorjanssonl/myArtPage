@@ -9,7 +9,7 @@ function Home() {
     <Container className="ContainerHome">
         <Col md={12}>
           <div className="text-info">
-          <img src="signature1.png" className="signature" />
+          <img src="logo2.png" className="signature" />
            </div>
           </Col>
           <Row>
