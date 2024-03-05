@@ -50,7 +50,7 @@ const cardData = [
   },
 
   {
-    imgSrc: "Oljemåning.jpg",
+    imgSrc: "oljebild.jpg",
     title: "Oljemålning i 3D",
     text: "En målning i olja.",
     price: "2800" 

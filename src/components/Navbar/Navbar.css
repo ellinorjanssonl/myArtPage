@@ -32,6 +32,11 @@
     transition: 0.3s ease-in-out;
   }
 
+  #cart-dropdown:hover {
+    background-color: transparent;
+    color: rgb(56, 168, 45);
+  }
+
   .nav-link:hover {
     color: var(--color-primary);
     transform: scale(1.1);
