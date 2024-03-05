@@ -72,10 +72,11 @@
    
     .text-info img{
       color: var(--color-text);
-      width: 400px;
-      height: 120px;
+      width: 300px;
+      height: 100px;
       text-align: center;
     }
+
 
   }
 
